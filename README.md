@@ -1,11 +1,16 @@
 # MasteringAndroid
 
+
+
 MasteringAndroid 的愿景是：
 
 「帮助每一个 Android 开发者更加快速、更加全面以及更加深入地学习并掌握 Android 。」
 
+(trying)
 
 ### 学习 Android 的困境
+
+
 
 相信每个 Android 开发者都或多或少的遇到过一些学习以及成长上面的难题。
 
@@ -24,22 +29,42 @@ MasteringAndroid 的愿景是：
 UI TODO:
 
 - ConstraintLayout ： 余承润
-- RecyclerView：岳晓辉
+
+- [RecyclerView](./android/ui/recyclerview.md)
+
 - ViewPager
-- TextView : 李腾
-- ImageView  高祥
+
+- [TextView](./android/ui/textview.md) 
+
+- [ImageView](./android/ui/ImageView.md)  高祥
+
 - MaterialDesign 李仕庭
-- UI 性能优化 孙祥磊
+
+- [UI 性能优化](./android/ui/UI性能优化.md) 
+
 - 自定义 View
+
 - Drawable   管鹏杰
+
+  [第一部分](./android/ui/Android-Drawable-Use-Part1.md)
+  [第二部分](./android/ui/Android-Drawable-Use-Part2.md)
+
 - Toast
+
 - PopupWindow
+
 - DialogFragment ： 宋纪琛
+
 - UI 适配
+
 - FlexboxLayout
+
 - Fragment ： 李腾
+
 - Animation ： 徐晓涵
+
 - Bitmap  ：江清锋
+
 - ViewRootImpl : 何昌辉
 
 
@@ -64,7 +89,18 @@ Third Party :
 5. LeakCanary
 6. ...
 
+### Android 适配
 
+
+适配 Android Q ：
+
+
+hidden api :
+
+https://developer.android.google.cn/distribute/best-practices/develop/restrictions-non-sdk-interfaces#test-for-non-sdk
+veridex：https://android.googlesource.com/platform/prebuilts/runtime/+/master/appcompat
+
+ ./appcompat.sh --dex-file=你的apk的路径
 
 ### 规范
 
